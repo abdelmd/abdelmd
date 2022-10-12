@@ -23,24 +23,27 @@
 <body>
   <div id="wrapper">
     <header>
-      <i class="fa fa-camera-retro"></i>
-      
-      <h1 itemprop="nom">DAKKON</h1>
-  
+      <h1 itemprop="nom">DAKKON Abdelmonim</h1>
+      <hr>
       <h2 itemprop="titre">Etudiant en Master 2 (DOSI)</h2>
-  
+
       <p itemprop="full name">DAKKON Abdelmonim</p>
       <p itemprop="adresse">Adrs : 2 Rue des Archives</p>
       <p datetime="2000-11-01">Date de naissance : 01 novembre 2000</p>
       <p itemprop="email">Email : dakkonabdelmonim@gmail.com</p>
       <p itemprop="nationalite">Nationalité : Marocain</p>
     </header>
-    
-    <img src="https://www.pngitem.com/pimgs/m/515-5157339_feel-meme-png-transparent-png.png" width="200px">
+
+    <img class="profile-img" src="https://www.pngitem.com/pimgs/m/515-5157339_feel-meme-png-transparent-png.png"
+      width="200px">
 
     <article>
-      <h3>Formation</h3>
-      <dl>
+      <hr>
+      <div class="section_title" id="formation" style="display: flex;">
+        <h3>Formation </h3>
+        <img class="plusimg" width="20px" height="20px" src="./assets/plus.png" alt="" />
+      </div>
+      <dl class="formation">
         <dt><b>Université de Bretagne Occidentale</b></dt>
         <dd>Développement lOgiciel des Systèmes d’Information - Master 2</dd>
 
@@ -53,11 +56,66 @@
       </dl>
     </article>
 
+    <article>
+      <hr>
+      <div class="section_title" id="experience" style="display: flex;">
+        <h3>Expérience </h3>
+        <img class="plusimg" width="20px" height="20px" src="./assets/plus.png" alt="" />
+      </div>
+      <dl class="experience">
+        <dt><b>Hayaku Company</b></dt>
+        <dd>Développeur back-end &ensp;&ensp; - &ensp;&ensp; février 2022 - mai 2022 (5 mois)</dd>
+        <p>Migration d'un backend de SpringBoot (JAVA) avec MySQL à NestJS (TYPESCRIPT) avec PostgreSQL.</p>
+
+        <dt><b>DR-2 - Salesforce partner</b></dt>
+        <dd>Développeur Full Stack &ensp;&ensp; - &ensp;&ensp; juillet 2021 - juillet 2021 (1 mois)</dd>
+        <p>Développement d'une application Desktop en utilisant VueJs(Electron) et .Net Core.</p>
+      </dl>
+    </article>
+
+    <article>
+      <hr>
+      <div class="section_title" id="langages" style="display: flex;">
+        <h3>Langages </h3>
+        <img class="plusimg" width="20px" height="20px" src="./assets/plus.png" alt="" />
+      </div>
+      <dl class="langages">
+        <ul>
+          <li><b>Anglais</b></li>
+          <li><b>Français</b></li>
+          <li><b>Arabe</b></li>
+        </ul>
+      </dl>
+    </article>
+
+    <article>
+      <hr>
+      <div class="section_title" id="competences" style="display: flex;">
+        <h3>Competences </h3>
+        <img class="plusimg" width="20px" height="20px" src="./assets/plus.png" alt="" />
+      </div>
+      <dl class="competences">
+        <ul>
+          <li><b>Java</b></li>
+          <li><b>TypeScript</b></li>
+          <li><b>Spring Boot</b></li>
+          <li><b>NestJS</b></li>
+          <li><b>Docker</b></li>
+          <li><b>Git</b></li>
+          <li><b>Scrum</b></li>
+          <li><b>Devops</b></li>
+          <li><b>CI-CD</b></li>
+
+        </ul>
+      </dl>
+    </article>
+
     <footer>
       <p><a href="https://ma.linkedin.com/in/abdelmonim-dakkon-28b52a1bb" itemprop="url">LinkedIn</a></p>
       <p><a href="https://github.com/AbdellM" itemprop="url">GitHub</a></p>
     </footer>
   </div>
 </body>
+<script src="js/index.js"></script>
 
 </html>

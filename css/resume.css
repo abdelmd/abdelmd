@@ -22,7 +22,7 @@ html {
     margin-left: auto;
 }
 
-img {
+.profile-img {
     position: absolute;
     right: 30%;
     top: 2%;
@@ -33,3 +33,13 @@ img {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+.section_title {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .plusimg{
+    padding-top: 1rem;
+  }
