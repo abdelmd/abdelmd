@@ -43,3 +43,22 @@ html {
   .plusimg{
     padding-top: 1rem;
   }
+
+.couponcode:hover .coupontooltip {
+    display: block;
+}
+
+
+.coupontooltip {
+    display: none;
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #ccc;
+    margin-left: 28px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    max-width:500px;
+    
+}
